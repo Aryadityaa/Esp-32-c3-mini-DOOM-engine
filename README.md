@@ -18,3 +18,13 @@ For the buttons
 | Button DOWN  | GPIO 3  |
 | Button LEFT  | GPIO 4  |
 | Button RIGHT | GPIO 10 |
+
+| Battery   | TP4056 Pin |
+| --------- | ---------- |
+| + (red)   | B+         |
+| – (black) | B-         |
+
+| TP4056 | ESP32-C3 |
+| ------ | -------- |
+| OUT+   | 5V / VIN |
+| OUT-   | GND      |
